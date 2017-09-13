@@ -1,0 +1,23 @@
+{
+  "name": "bittrexarbitragebot",
+  "version": "1.0.0",
+  "description": "Checks if it is possible to arbitrage for a specific coin/token. An example is BTC -> LTC - > ETH -> BTC. This skips the need to move coins between exchanges",
+  "main": "arbitrageBot.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node.bittrex.api": "^0.6.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejshen/BittrexArbitrageBot.git"
+  },
+  "author": "Jason Shen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thejshen/BittrexArbitrageBot/issues"
+  },
+  "homepage": "https://github.com/thejshen/BittrexArbitrageBot#readme"
+}
