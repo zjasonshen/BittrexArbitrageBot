@@ -69,7 +69,7 @@ const getBidOrAsk = (coinStruct, tradeNum) => {
 
                 let profitPercent = (arbitrageConst*100.0) - 100.0;
                 // Sort out the ones that might be worth attempting
-                if (profitPercent > 0) {
+                if (profitPercent > 0.25) {
                     console.log(`Checking---${coinStruct.name}---`)
                     console.log(`${coinStruct.markets[0]} ask: ${coinStruct.prices[0]}`);
                     console.log(`${coinStruct.markets[1]} bid: ${coinStruct.prices[1]}`);
