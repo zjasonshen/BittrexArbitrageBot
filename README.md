@@ -9,3 +9,6 @@ Add API keys for bittrex to the top of the arbitrageBot.js file
 ```bash
 node arbitrageBot.js
 ```
+
+# TODO
+Bot is currently incomplete (unable to trade). This is since After running the code, I'm unable to find winning trades while scanning.
